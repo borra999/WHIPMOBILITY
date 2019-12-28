@@ -1,6 +1,6 @@
 
 import Foundation
-struct Items : Codable {
+struct ServiceItems : Codable {
 	let description : String?
 	let growth : Int?
 	let title : String?

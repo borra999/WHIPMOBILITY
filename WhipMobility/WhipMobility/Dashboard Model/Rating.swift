@@ -3,14 +3,14 @@ import Foundation
 struct Rating : Codable {
 	let avg : Int?
 	let description : String?
-	let items : Items?
+	let ratingItems : RatingItems?
 	let title : String?
 
 	enum CodingKeys: String, CodingKey {
 
 		case avg = "avg"
 		case description = "description"
-		case items = "items"
+		case ratingItems = "items"
 		case title = "title"
 	}
 
@@ -18,7 +18,7 @@ struct Rating : Codable {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
 		avg = try values.decodeIfPresent(Int.self, forKey: .avg)
 		description = try values.decodeIfPresent(String.self, forKey: .description)
-		items = try values.decodeIfPresent(Items.self, forKey: .items)
+		ratingItems = try values.decodeIfPresent(RatingItems.self, forKey: .ratingItems)
 		title = try values.decodeIfPresent(String.self, forKey: .title)
 	}
 

@@ -3,14 +3,14 @@ import Foundation
 struct LineCharts : Codable {
 	let chartType : String?
 	let description : String?
-	let items : [Items]?
+	let lineItems : [LineItems]?
 	let title : String?
 
 	enum CodingKeys: String, CodingKey {
 
 		case chartType = "chartType"
 		case description = "description"
-		case items = "items"
+		case lineItems = "items"
 		case title = "title"
 	}
 
@@ -18,7 +18,7 @@ struct LineCharts : Codable {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
 		chartType = try values.decodeIfPresent(String.self, forKey: .chartType)
 		description = try values.decodeIfPresent(String.self, forKey: .description)
-		items = try values.decodeIfPresent([Items].self, forKey: .items)
+		lineItems = try values.decodeIfPresent([LineItems].self, forKey: .lineItems)
 		title = try values.decodeIfPresent(String.self, forKey: .title)
 	}
 

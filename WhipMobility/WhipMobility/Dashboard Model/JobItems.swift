@@ -1,25 +1,25 @@
 
 import Foundation
-struct PieCharts : Codable {
-	let chartType : String?
+struct JobItems : Codable {
 	let description : String?
-	let pieChartItems : [PieChartItems]?
+	let growth : Int?
 	let title : String?
+	let total : Int?
 
 	enum CodingKeys: String, CodingKey {
 
-		case chartType = "chartType"
 		case description = "description"
-		case pieChartItems = "items"
+		case growth = "growth"
 		case title = "title"
+		case total = "total"
 	}
 
 	init(from decoder: Decoder) throws {
 		let values = try decoder.container(keyedBy: CodingKeys.self)
-		chartType = try values.decodeIfPresent(String.self, forKey: .chartType)
 		description = try values.decodeIfPresent(String.self, forKey: .description)
-		pieChartItems = try values.decodeIfPresent([PieChartItems].self, forKey: .pieChartItems)
+		growth = try values.decodeIfPresent(Int.self, forKey: .growth)
 		title = try values.decodeIfPresent(String.self, forKey: .title)
+		total = try values.decodeIfPresent(Int.self, forKey: .total)
 	}
 
 }
