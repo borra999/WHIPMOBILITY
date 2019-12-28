@@ -15,4 +15,7 @@ class DashboardPresenter: DashboardModuleInput, DashboardViewOutput, DashboardIn
     func viewIsReady() {
 
     }
+    func dashBoardList(dashBoardModel : DashboardModel){
+        
+    }
 }
