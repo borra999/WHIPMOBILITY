@@ -16,6 +16,17 @@
 		4C6866A623B6FBE4001E164F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6866A423B6FBE4001E164F /* LaunchScreen.storyboard */; };
 		4C6866B123B6FBE5001E164F /* WhipMobilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866B023B6FBE5001E164F /* WhipMobilityTests.swift */; };
 		4C6866BC23B6FBE5001E164F /* WhipMobilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866BB23B6FBE5001E164F /* WhipMobilityUITests.swift */; };
+		4C6866D623B7034B001E164F /* Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866CB23B70347001E164F /* Analytics.swift */; };
+		4C6866D723B7034B001E164F /* PieCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866CC23B70347001E164F /* PieCharts.swift */; };
+		4C6866D823B7034B001E164F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866CD23B70348001E164F /* Service.swift */; };
+		4C6866D923B7034B001E164F /* LineCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866CE23B70348001E164F /* LineCharts.swift */; };
+		4C6866DA23B7034B001E164F /* Items.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866CF23B70349001E164F /* Items.swift */; };
+		4C6866DB23B7034B001E164F /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866D023B70349001E164F /* Job.swift */; };
+		4C6866DC23B7034B001E164F /* DashboardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866D123B70349001E164F /* DashboardModel.swift */; };
+		4C6866DD23B7034B001E164F /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866D223B7034A001E164F /* Rating.swift */; };
+		4C6866DE23B7034B001E164F /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866D323B7034A001E164F /* Response.swift */; };
+		4C6866DF23B7034B001E164F /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866D423B7034A001E164F /* Value.swift */; };
+		4C6866E023B7034B001E164F /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6866D523B7034B001E164F /* Data.swift */; };
 		5399E0DD2D2AF3A8C74D966F /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF6FE035F6B2ECEF62B6CE /* DashboardRouter.swift */; };
 		6ED0FE9C22EC1C83B4B73BA0 /* DashboardConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AF9CD6338485AF7DA188E /* DashboardConfiguratorTests.swift */; };
 		7C9756A30E3A8AE15583F9A1 /* DashboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF54FDFF0FBFEBAC3E1606 /* DashboardInteractorInput.swift */; };
@@ -71,6 +82,17 @@
 		4C6866B723B6FBE5001E164F /* WhipMobilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhipMobilityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6866BB23B6FBE5001E164F /* WhipMobilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhipMobilityUITests.swift; sourceTree = "<group>"; };
 		4C6866BD23B6FBE5001E164F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6866CB23B70347001E164F /* Analytics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Analytics.swift; sourceTree = "<group>"; };
+		4C6866CC23B70347001E164F /* PieCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieCharts.swift; sourceTree = "<group>"; };
+		4C6866CD23B70348001E164F /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		4C6866CE23B70348001E164F /* LineCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineCharts.swift; sourceTree = "<group>"; };
+		4C6866CF23B70349001E164F /* Items.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Items.swift; sourceTree = "<group>"; };
+		4C6866D023B70349001E164F /* Job.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		4C6866D123B70349001E164F /* DashboardModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardModel.swift; sourceTree = "<group>"; };
+		4C6866D223B7034A001E164F /* Rating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
+		4C6866D323B7034A001E164F /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		4C6866D423B7034A001E164F /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		4C6866D523B7034B001E164F /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 		52CF54FDFF0FBFEBAC3E1606 /* DashboardInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardInteractorInput.swift; sourceTree = "<group>"; };
 		56B94D6C74E0D1FC078A4000 /* DashboardViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardViewTests.swift; sourceTree = "<group>"; };
 		6AB3BE250CF47826B1862DA5 /* DashboardViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardViewInput.swift; sourceTree = "<group>"; };
@@ -142,6 +164,7 @@
 			children = (
 				4C6866C923B70044001E164F /* Default Classes */,
 				9FA7FD3EAAA79110D913021B /* Dashboard */,
+				4C6866CA23B7031C001E164F /* Dashboard Model */,
 				4C68669F23B6FBE0001E164F /* Main.storyboard */,
 				4C6866A223B6FBE4001E164F /* Assets.xcassets */,
 				4C6866A423B6FBE4001E164F /* LaunchScreen.storyboard */,
@@ -176,6 +199,24 @@
 				4C68669B23B6FBE0001E164F /* SceneDelegate.swift */,
 			);
 			path = "Default Classes";
+			sourceTree = "<group>";
+		};
+		4C6866CA23B7031C001E164F /* Dashboard Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C6866CB23B70347001E164F /* Analytics.swift */,
+				4C6866D523B7034B001E164F /* Data.swift */,
+				4C6866CF23B70349001E164F /* Items.swift */,
+				4C6866D023B70349001E164F /* Job.swift */,
+				4C6866D123B70349001E164F /* DashboardModel.swift */,
+				4C6866CE23B70348001E164F /* LineCharts.swift */,
+				4C6866CC23B70347001E164F /* PieCharts.swift */,
+				4C6866D223B7034A001E164F /* Rating.swift */,
+				4C6866D323B7034A001E164F /* Response.swift */,
+				4C6866CD23B70348001E164F /* Service.swift */,
+				4C6866D423B7034A001E164F /* Value.swift */,
+			);
+			path = "Dashboard Model";
 			sourceTree = "<group>";
 		};
 		5A728BEDFDCDA5C5E00B35E6 /* View */ = {
@@ -416,15 +457,26 @@
 				497AFCEF54BFE0328155DBF3 /* DashboardViewInput.swift in Sources */,
 				B25619E6B2E9108D0E587B79 /* DashboardViewOutput.swift in Sources */,
 				257E793E304BEE79AA53B760 /* DashboardViewController.swift in Sources */,
+				4C6866DC23B7034B001E164F /* DashboardModel.swift in Sources */,
+				4C6866E023B7034B001E164F /* Data.swift in Sources */,
 				CFD0627FF396469A60EC6364 /* DashboardModuleInput.swift in Sources */,
 				98F2C2FEA8A9A4165145A4C1 /* DashboardPresenter.swift in Sources */,
 				7C9756A30E3A8AE15583F9A1 /* DashboardInteractorInput.swift in Sources */,
+				4C6866D623B7034B001E164F /* Analytics.swift in Sources */,
+				4C6866DA23B7034B001E164F /* Items.swift in Sources */,
+				4C6866DF23B7034B001E164F /* Value.swift in Sources */,
 				AD01C56A31D511D0C7F913A6 /* DashboardInteractorOutput.swift in Sources */,
+				4C6866D923B7034B001E164F /* LineCharts.swift in Sources */,
 				FD40D05C773E3DAC30C5E3CD /* DashboardInteractor.swift in Sources */,
+				4C6866D823B7034B001E164F /* Service.swift in Sources */,
 				CCCB0346FEFD962291A957CD /* DashboardRouterInput.swift in Sources */,
+				4C6866DD23B7034B001E164F /* Rating.swift in Sources */,
 				5399E0DD2D2AF3A8C74D966F /* DashboardRouter.swift in Sources */,
+				4C6866D723B7034B001E164F /* PieCharts.swift in Sources */,
 				94458073E1F46B30548CFFC0 /* DashboardConfigurator.swift in Sources */,
+				4C6866DE23B7034B001E164F /* Response.swift in Sources */,
 				A9AD22050FF1FE3B88607D20 /* DashboardInitializer.swift in Sources */,
+				4C6866DB23B7034B001E164F /* Job.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
