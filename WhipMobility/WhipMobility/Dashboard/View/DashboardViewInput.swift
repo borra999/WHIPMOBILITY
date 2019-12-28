@@ -14,4 +14,5 @@ protocol DashboardViewInput: class {
     */
 
     func setupInitialState()
+    func loadViewWithData(dashBoardMdl: DashboardModel)
 }

@@ -9,5 +9,5 @@
 import Foundation
 
 protocol DashboardInteractorOutput: class {
-
+ func dashBoardList(dashBoardModel: DashboardModel)
 }

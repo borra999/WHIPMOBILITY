@@ -32,9 +32,21 @@
 		4C68673623B738B9001E164F /* RatingItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68672723B738B8001E164F /* RatingItems.swift */; };
 		4C68673723B738B9001E164F /* PieCharts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68672823B738B9001E164F /* PieCharts.swift */; };
 		4C68673923B739EF001E164F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68673823B739EF001E164F /* DataManager.swift */; };
+		4C68673C23B743A4001E164F /* Constatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68673B23B743A4001E164F /* Constatnts.swift */; };
+		4C68673F23B7490C001E164F /* RatingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68673E23B7490C001E164F /* RatingsCell.swift */; };
+		4C68674123B7495B001E164F /* JobsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68674023B7495B001E164F /* JobsCell.swift */; };
+		4C68674323B749A8001E164F /* LineChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68674223B749A8001E164F /* LineChartCell.swift */; };
+		4C68674523B749B6001E164F /* PieChartCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68674423B749B6001E164F /* PieChartCell.swift */; };
+		4C68674723B749C9001E164F /* TableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C68674623B749C9001E164F /* TableViewHeaderCell.swift */; };
 		5399E0DD2D2AF3A8C74D966F /* DashboardRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AF6FE035F6B2ECEF62B6CE /* DashboardRouter.swift */; };
 		6ED0FE9C22EC1C83B4B73BA0 /* DashboardConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3AF9CD6338485AF7DA188E /* DashboardConfiguratorTests.swift */; };
 		7C9756A30E3A8AE15583F9A1 /* DashboardInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CF54FDFF0FBFEBAC3E1606 /* DashboardInteractorInput.swift */; };
+		8496DF5923B74BBD00BAB0E9 /* DashBoardType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496DF5823B74BBD00BAB0E9 /* DashBoardType.swift */; };
+		8496DF5E23B7645C00BAB0E9 /* TableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496DF5D23B7645C00BAB0E9 /* TableViewExtension.swift */; };
+		8496DF6023B7647800BAB0E9 /* TableviewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496DF5F23B7647800BAB0E9 /* TableviewCellExtension.swift */; };
+		8496DF6623B77CCC00BAB0E9 /* DotCALayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496DF6323B77CCC00BAB0E9 /* DotCALayer.swift */; };
+		8496DF6723B77CCC00BAB0E9 /* LineChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496DF6423B77CCC00BAB0E9 /* LineChart.swift */; };
+		8496DF6823B77CCC00BAB0E9 /* CurveAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496DF6523B77CCC00BAB0E9 /* CurveAlgorithm.swift */; };
 		94458073E1F46B30548CFFC0 /* DashboardConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F851AC5669F46304709E2874 /* DashboardConfigurator.swift */; };
 		98F2C2FEA8A9A4165145A4C1 /* DashboardPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F4F517B81426294B460DB7D /* DashboardPresenter.swift */; };
 		A9AD22050FF1FE3B88607D20 /* DashboardInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B089365B7937B4F0A959D1 /* DashboardInitializer.swift */; };
@@ -103,9 +115,21 @@
 		4C68672723B738B8001E164F /* RatingItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingItems.swift; sourceTree = "<group>"; };
 		4C68672823B738B9001E164F /* PieCharts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieCharts.swift; sourceTree = "<group>"; };
 		4C68673823B739EF001E164F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		4C68673B23B743A4001E164F /* Constatnts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constatnts.swift; sourceTree = "<group>"; };
+		4C68673E23B7490C001E164F /* RatingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsCell.swift; sourceTree = "<group>"; };
+		4C68674023B7495B001E164F /* JobsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsCell.swift; sourceTree = "<group>"; };
+		4C68674223B749A8001E164F /* LineChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartCell.swift; sourceTree = "<group>"; };
+		4C68674423B749B6001E164F /* PieChartCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartCell.swift; sourceTree = "<group>"; };
+		4C68674623B749C9001E164F /* TableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeaderCell.swift; sourceTree = "<group>"; };
 		52CF54FDFF0FBFEBAC3E1606 /* DashboardInteractorInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardInteractorInput.swift; sourceTree = "<group>"; };
 		56B94D6C74E0D1FC078A4000 /* DashboardViewTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardViewTests.swift; sourceTree = "<group>"; };
 		6AB3BE250CF47826B1862DA5 /* DashboardViewInput.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardViewInput.swift; sourceTree = "<group>"; };
+		8496DF5823B74BBD00BAB0E9 /* DashBoardType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardType.swift; sourceTree = "<group>"; };
+		8496DF5D23B7645C00BAB0E9 /* TableViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtension.swift; sourceTree = "<group>"; };
+		8496DF5F23B7647800BAB0E9 /* TableviewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewCellExtension.swift; sourceTree = "<group>"; };
+		8496DF6323B77CCC00BAB0E9 /* DotCALayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DotCALayer.swift; sourceTree = "<group>"; };
+		8496DF6423B77CCC00BAB0E9 /* LineChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineChart.swift; sourceTree = "<group>"; };
+		8496DF6523B77CCC00BAB0E9 /* CurveAlgorithm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveAlgorithm.swift; sourceTree = "<group>"; };
 		86AF6FE035F6B2ECEF62B6CE /* DashboardRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardRouter.swift; sourceTree = "<group>"; };
 		A3B0919C8A5BC6DEFEA3CA10 /* DashboardRouterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardRouterTests.swift; sourceTree = "<group>"; };
 		A64376CFF2FCE63381BB0558 /* DashboardInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardInteractor.swift; sourceTree = "<group>"; };
@@ -172,6 +196,8 @@
 		4C68669823B6FBE0001E164F /* WhipMobility */ = {
 			isa = PBXGroup;
 			children = (
+				8496DF6223B77CBC00BAB0E9 /* LineChart */,
+				8496DF5A23B7639F00BAB0E9 /* Class Extensions */,
 				4C6866C923B70044001E164F /* Default Classes */,
 				4C68673A23B73A13001E164F /* CommonClasses */,
 				9FA7FD3EAAA79110D913021B /* Dashboard */,
@@ -238,8 +264,21 @@
 			isa = PBXGroup;
 			children = (
 				4C68673823B739EF001E164F /* DataManager.swift */,
+				4C68673B23B743A4001E164F /* Constatnts.swift */,
 			);
 			path = CommonClasses;
+			sourceTree = "<group>";
+		};
+		4C68673D23B748D1001E164F /* Cusotm TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				4C68673E23B7490C001E164F /* RatingsCell.swift */,
+				4C68674023B7495B001E164F /* JobsCell.swift */,
+				4C68674223B749A8001E164F /* LineChartCell.swift */,
+				4C68674423B749B6001E164F /* PieChartCell.swift */,
+				4C68674623B749C9001E164F /* TableViewHeaderCell.swift */,
+			);
+			path = "Cusotm TableCells";
 			sourceTree = "<group>";
 		};
 		5A728BEDFDCDA5C5E00B35E6 /* View */ = {
@@ -268,6 +307,33 @@
 				A3B0919C8A5BC6DEFEA3CA10 /* DashboardRouterTests.swift */,
 			);
 			path = Router;
+			sourceTree = "<group>";
+		};
+		8496DF5723B74B8F00BAB0E9 /* DashBoardType */ = {
+			isa = PBXGroup;
+			children = (
+				8496DF5823B74BBD00BAB0E9 /* DashBoardType.swift */,
+			);
+			path = DashBoardType;
+			sourceTree = "<group>";
+		};
+		8496DF5A23B7639F00BAB0E9 /* Class Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8496DF5D23B7645C00BAB0E9 /* TableViewExtension.swift */,
+				8496DF5F23B7647800BAB0E9 /* TableviewCellExtension.swift */,
+			);
+			path = "Class Extensions";
+			sourceTree = "<group>";
+		};
+		8496DF6223B77CBC00BAB0E9 /* LineChart */ = {
+			isa = PBXGroup;
+			children = (
+				8496DF6523B77CCC00BAB0E9 /* CurveAlgorithm.swift */,
+				8496DF6323B77CCC00BAB0E9 /* DotCALayer.swift */,
+				8496DF6423B77CCC00BAB0E9 /* LineChart.swift */,
+			);
+			path = LineChart;
 			sourceTree = "<group>";
 		};
 		87C1B90D25FE12F022DA4331 /* Presenter */ = {
@@ -302,6 +368,8 @@
 				5C3F64A77D83FA9C420D6C19 /* Interactor */,
 				F75C2688FDA4BC51B2EC520D /* Router */,
 				008145CF30E9CD7FD0CA1FE5 /* Configurator */,
+				4C68673D23B748D1001E164F /* Cusotm TableCells */,
+				8496DF5723B74B8F00BAB0E9 /* DashBoardType */,
 			);
 			path = Dashboard;
 			sourceTree = "<group>";
@@ -475,21 +543,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C68674523B749B6001E164F /* PieChartCell.swift in Sources */,
+				4C68674323B749A8001E164F /* LineChartCell.swift in Sources */,
 				4C68672923B738B9001E164F /* ServiceItems.swift in Sources */,
 				4C68673923B739EF001E164F /* DataManager.swift in Sources */,
 				4C68673423B738B9001E164F /* Service.swift in Sources */,
+				8496DF6823B77CCC00BAB0E9 /* CurveAlgorithm.swift in Sources */,
 				4C68669A23B6FBE0001E164F /* AppDelegate.swift in Sources */,
+				8496DF6023B7647800BAB0E9 /* TableviewCellExtension.swift in Sources */,
+				4C68673F23B7490C001E164F /* RatingsCell.swift in Sources */,
 				4C68672B23B738B9001E164F /* LineItems.swift in Sources */,
+				8496DF5923B74BBD00BAB0E9 /* DashBoardType.swift in Sources */,
+				4C68674123B7495B001E164F /* JobsCell.swift in Sources */,
 				4C68673723B738B9001E164F /* PieCharts.swift in Sources */,
 				4C68669C23B6FBE0001E164F /* SceneDelegate.swift in Sources */,
+				8496DF6723B77CCC00BAB0E9 /* LineChart.swift in Sources */,
 				4C68673523B738B9001E164F /* Value.swift in Sources */,
 				497AFCEF54BFE0328155DBF3 /* DashboardViewInput.swift in Sources */,
+				4C68673C23B743A4001E164F /* Constatnts.swift in Sources */,
 				4C68673623B738B9001E164F /* RatingItems.swift in Sources */,
 				4C68673223B738B9001E164F /* DashboardModel.swift in Sources */,
 				B25619E6B2E9108D0E587B79 /* DashboardViewOutput.swift in Sources */,
 				4C68673023B738B9001E164F /* LineCharts.swift in Sources */,
 				257E793E304BEE79AA53B760 /* DashboardViewController.swift in Sources */,
 				CFD0627FF396469A60EC6364 /* DashboardModuleInput.swift in Sources */,
+				4C68674723B749C9001E164F /* TableViewHeaderCell.swift in Sources */,
 				4C68672C23B738B9001E164F /* Analytics.swift in Sources */,
 				98F2C2FEA8A9A4165145A4C1 /* DashboardPresenter.swift in Sources */,
 				7C9756A30E3A8AE15583F9A1 /* DashboardInteractorInput.swift in Sources */,
@@ -501,6 +579,8 @@
 				CCCB0346FEFD962291A957CD /* DashboardRouterInput.swift in Sources */,
 				5399E0DD2D2AF3A8C74D966F /* DashboardRouter.swift in Sources */,
 				94458073E1F46B30548CFFC0 /* DashboardConfigurator.swift in Sources */,
+				8496DF5E23B7645C00BAB0E9 /* TableViewExtension.swift in Sources */,
+				8496DF6623B77CCC00BAB0E9 /* DotCALayer.swift in Sources */,
 				4C68673123B738B9001E164F /* Response.swift in Sources */,
 				A9AD22050FF1FE3B88607D20 /* DashboardInitializer.swift in Sources */,
 				4C68672A23B738B9001E164F /* Data.swift in Sources */,
